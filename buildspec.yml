@@ -8,7 +8,7 @@ steps:
     name: "Build Hello World"
     timeoutInSeconds: 400
     command: |
-      gradle compile
+      gradle compileJava
     onFailure:
       - type: Command
         command: |
