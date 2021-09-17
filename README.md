@@ -42,6 +42,8 @@ java -jar app.jar
 ```
 
 3. To verify, make sure the string "Hello World!" is printed in the shell.
+
+
  ***Note :-***
   To remove pre build jar file we can use command 
   ```
