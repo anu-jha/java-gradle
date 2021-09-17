@@ -42,7 +42,11 @@ java -jar app.jar
 ```
 
 3. To verify, make sure the string "Hello World!" is printed in the shell.
-
+ ***Note :-***
+  To remove pre build jar file we can use command 
+  ```
+   gradle clean
+  ```
 ## Building the application in OCI DevOps
 Now that We've seen we can locally build this app, let's try this out through OCI DevOps Build service.
 
