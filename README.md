@@ -34,6 +34,7 @@ cd java-gradle
   gradle jar
   ```
  This command create a new folder with name "app" and jar file will be store in **app/build/libs**.
+ 
 2. Verify that jar file was built, with name `app`, to run jar file we can simply run jar file.
 
 ```shell
