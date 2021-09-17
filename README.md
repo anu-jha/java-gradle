@@ -33,11 +33,13 @@ cd java-gradle
   ```
   gradle jar
   ```
- This command create a new folder with name "app" and jar file will be store in [app/build/libs].
+ This command create a new folder with name "app" and jar file will be store in app/build/libs .
 2. Verify that jar file was built, with name `app`, to run jar file we can simply run jar file.
 
-```cd app/build/libs```
-```java -jar app.jar```
+```shell
+cd app/build/libs
+java -jar app.jar
+```
 
 3. To verify, make sure the string "Hello World!" is printed in the shell.
 
