@@ -78,7 +78,7 @@ Create a [Artifact Registry repository](https://docs.oracle.com/en-us/iaas/artif
 The version of the jar file that will be delivered to the OCI repository is defined by a [parameter](https://docs.oracle.com/en-us/iaas/Content/devops/using/configuring_parameters.htm) in the Artifact URI that matches a Build Spec exported variable or Build Pipeline parameter name.
 
 Create a DevOps Artifact to point to the Artifact Registry repository location you just created above. Enter the information for the Artifact location:
-1. Name: `java-jar-buildspec-sample-artifact`
+1. Name: `java-gradle-buildspec-sample-artifact`
 2. Type: General Artifact
 3. Artifact source: Artifact Registry repository
 4. Version: ${version} (assign some parameter eg:- 1.0, 2.0)
